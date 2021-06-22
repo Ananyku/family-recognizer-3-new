@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Family Recognizer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    </head>
+    <body>
+        <center>
+        <h1>
+            Family Recognizer App
+        </h1>
+
+        <h2>This model is trained on :</h2>
+        <h3>Mom | Dad | Son</h3>
+
+        <div id="result_div">
+            <h4>Family Member : </h4>
+            <span id="result_object_name"></span>
+        
+            <h4>Accuracy : </h4>
+            <span id="result_object_accuracy"></span>
+        </div>
+
+        <br>
+        
+        <div>
+            <label>Webcam</label><br>
+      <br>
+            <label id="hover">Hover for larger view</label>
+        </div>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
